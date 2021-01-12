@@ -1,2 +1,2 @@
 # yaraVirtualCard
-Só vai bb
+Só vai bb 😉✌
