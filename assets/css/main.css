@@ -106,10 +106,10 @@
 	body {
 		height: 100%;
 		background-color: #ffffff;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, #ffe600a2 5%, rgba(255, 238, 0, 0.952)), url("../../images/bg.jpg");
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(255, 251, 0 0.5) 5%, rgba(255, 238, 0, 0.35)), url("../../images/bg.jpg");
-		background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(255, 251, 0 0.5) 5%, rgba(255, 238, 0, 0.35)), url("../../images/bg.jpg");
-		background-image: url("images/overlay.png"), linear-gradient(60deg, rgb(255, 251, 0) 5%, rgba(255, 238, 0, 0.35)), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, #F7CD25 5%, rgba(255, 245, 108, 0.952)), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(247, 205, 37, 0.5) 5%, rgba(255, 245, 108, 0.952)), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(2247, 205, 37, 0.5) 5%, rgba(255, 245, 108, 0.952)), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), linear-gradient(60deg, rgb(247, 205, 37) 5%, rgba(255, 245, 108, 0.952)), url("../../images/bg.jpg");
 		background-repeat: repeat,			no-repeat,			no-repeat;
 		background-size: 100px 100px, cover,				cover;
 		background-position: top left,		center center,		bottom center;
