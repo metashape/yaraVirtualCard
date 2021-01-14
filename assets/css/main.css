@@ -106,10 +106,10 @@
 	body {
 		height: 100%;
 		background-color: #ffffff;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
-		background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
-		background-image: url("images/overlay.png"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, #ffe600a2 5%, rgba(255, 238, 0, 0.952)), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(255, 251, 0 0.5) 5%, rgba(255, 238, 0, 0.35)), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(255, 251, 0 0.5) 5%, rgba(255, 238, 0, 0.35)), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), linear-gradient(60deg, rgb(255, 251, 0) 5%, rgba(255, 238, 0, 0.35)), url("../../images/bg.jpg");
 		background-repeat: repeat,			no-repeat,			no-repeat;
 		background-size: 100px 100px, cover,				cover;
 		background-position: top left,		center center,		bottom center;
@@ -127,10 +127,10 @@
 			opacity: 0;
 			z-index: 1;
 			background-color: #ffffff;
-			background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, rgba(17, 17, 17, 0.5) 5%, rgba(129,216,0, 0.35));
-			background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(17, 17, 17, 0.5) 5%, rgba(129,216,0, 0.35));
-			background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(17, 17, 17, 0.5) 5%, rgba(129,216,0, 0.35));
-			background-image: url("images/overlay.png"), linear-gradient(60deg, rgba(17, 17, 17, 0.5) 5%, rgba(129,216,0, 0.35));
+			background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, rgba(17, 17, 17, 0.5) 5%, rgba(255, 230, 0, 0.986));
+			background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(17, 17, 17, 0.5) 5%, rgba(255, 230, 0, 0.986));
+			background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(17, 17, 17, 0.5) 5%, rgba(255, 230, 0, 0.986));
+			background-image: url("images/overlay.png"), linear-gradient(60deg, rgba(17, 17, 17, 0.5) 5%, rgba(255, 230, 0, 0.986));
 			background-repeat: repeat,			no-repeat;
 			background-size: 100px 100px, cover;
 			background-position: top left,		center center;
@@ -190,7 +190,7 @@
 		}
 
 		a:hover {
-			color: #ff7496;
+			color: #fbff00;
 		}
 
 	strong, b {
@@ -384,7 +384,7 @@
 		input[type="tel"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #8a1130;
+			border-color: #fbff00;
 		}
 
 	select {
@@ -480,13 +480,13 @@
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			color: #ff7496;
+			color: #fbff00;
 			content: '\f00c';
 		}
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #ff7496;
+			border-color: #fbff00;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -774,7 +774,7 @@
 				}
 
 				ul.icons li a:hover:before {
-					text-shadow: 1.25px 0px 0px #ff7496, -1.25px 0px 0px #ff7496, 0px 1.25px 0px #ff7496, 0px -1.25px 0px #ff7496;
+					text-shadow: 1.25px 0px 0px #fbff00, -1.25px 0px 0px #fbff00, 0px 1.25px 0px #fbff00, 0px -1.25px 0px #fbff00;
 				}
 
 				ul.icons li a:before {
@@ -790,7 +790,7 @@
 				}
 
 				ul.icons li a:hover {
-					border-color: #ff7496;
+					border-color: #fbff00;
 				}
 
 		@media screen and (max-width: 480px) {
@@ -835,8 +835,8 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			border-color: #ff7496;
-			color: #ff7496 !important;
+			border-color: #fbff00;
+			color: #fbff00 !important;
 		}
 
 		input[type="submit"].icon,
